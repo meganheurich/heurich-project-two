@@ -7,39 +7,42 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles... */
 
-
 html {
   padding: .5em;
 	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   background-color: #e0e0da;
+  margin: 1em;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-align: center;
-  color: #DBF0FF;
+  color: #030130;
+  font-weight: bold;
 }
 
 h2 {
 	font-size: 1.3em;
 	text-align: center;
-  color: #DBF0FF;
+  color: #030130;
 	padding-bottom: 3%;
 }
 
 p {
-	color: #DBF0FF;
+	color: #030130;
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-bottom: 2.5%;
-	padding-top: 3%;
-	text-ali
+	padding-top: 1%;
+	margin: 1em;
 }
+
+
 
 img {
   display: block;
   max-width: 90%;
-  padding-bottom: 0.5em;
+  padding-bottom: 0em;
   padding-top: 0.5em;
   padding-left: 1em;
 }
@@ -48,4 +51,24 @@ figure {
   font-size: 1em;
   display: block;
   max-width: 100%
+}
+
+figcaption {
+  margin: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main{
+  display: flex;
+}
+
+
+footer {
+  text-align: center;
 }
