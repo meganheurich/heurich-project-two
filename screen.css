@@ -68,6 +68,11 @@ figcaption {
   display: flex;
 }
 
+.cotntent{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 
 footer {
   text-align: center;
