@@ -43,6 +43,13 @@ p {
 	margin: 1em;
 }
 
+main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  padding: 10px;
+}
+
 h2 {
 	font-size: 1.3em;
 	text-align: center;
@@ -67,22 +74,6 @@ figure {
 
 figcaption {
   margin: 1em;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.main{
-  display: flex;
-}
-
-.cotntent{
-  display: grid;
-  grid-template-columns: auto auto;
 }
 
 
