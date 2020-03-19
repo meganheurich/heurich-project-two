@@ -46,13 +46,14 @@ p {
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 50px;
+  grid-gap: 1em 1em;
   padding: 10px;
 }
 
 h2 {
 	font-size: 1.3em;
 	text-align: center;
+  font-weight: bold;
   color: #030130;
 	padding-bottom: 3%;
 }
